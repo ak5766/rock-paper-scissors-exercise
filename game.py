@@ -22,6 +22,8 @@ else:
     print("You shall not pass!")
     exit()
 print("USER CHOSE.",x)
+
+
 #setting the options for computer
 valid_options = ["rock", "paper", "scissors"]
 c = (random.choice(valid_options))
@@ -44,9 +46,12 @@ if (c=="paper") and (x=="rock"):
 if (c=="scissors") and (x=="paper"):
     print("Scissors Wins!! Computer win")
 if (x==c):
-    print("Overtime!!")
+    print("It's a tie!! Overtime!")
 
-print("Thank you for plahying.Run it back?")
+print("Thank you for playing.Run it back?")
+
+
+
 
 
 
