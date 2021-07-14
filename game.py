@@ -1,4 +1,5 @@
 import random
+
 print ("Rock, Paper, Scissors, Shoot!")
 x = input("Please choose one of the 'rock', 'paper', 'scissors':")
 print(x)
@@ -19,17 +20,18 @@ if(x=="rock") and (c=="scissors"):
 if (x=="paper") and (c=="rock"):
     print("Paper wins!! You Lost ")
 if (x=="scissors") and (c=="paper"):
-    print("Scicorrs wins!! You got em")
+    print("scissors wins!! You got em")
 
 if(c=="rock") and (x=="scissors"):
     print( "Rock Wins! Comp Wins")
 if (c=="paper") and (x=="rock"):
     print("Paper wins!! Paper destroys ")
-if (c=="sciccors") and (x=="paper"):
-    print("Scissorrs wins!! Comp win")
+if (c=="scissors") and (x=="paper"):
+    print("scissors wins!! Comp win")
 if (x==c):
     print("Overtime!!")
-    
+
+
 
 
 
