@@ -17,7 +17,7 @@ print(x)
 # choices for the variable x
 
 if (x == "rock") or (x == "paper") or (x == "scissors"):
-    print ("Valid")
+    print("Valid")
 else:
     print("You shall not pass!")
     exit()
@@ -30,21 +30,27 @@ print("Computer Chose.", c)
 # Logic for the game
 # My choices
 if(x=="rock") and (c=="scissors"):
-    print( "Rock Wins! Beat em")
+    print( "Rock Wins! You Beat em")
 if (x=="paper") and (c=="rock"):
     print("Paper Wins!! You Lost ")
 if (x=="scissors") and (c=="paper"):
-    print("Scissors wins!! You got em")
+    print("Scissors Wins!! You got em")
 
 # Choices for computer
 if(c=="rock") and (x=="scissors"):
     print( "Rock Wins! Comp Wins")
 if (c=="paper") and (x=="rock"):
-    print("Paper wins!! Paper destroys ")
+    print("Paper Wins!! Computer destroys ")
 if (c=="scissors") and (x=="paper"):
-    print("Scissors wins!! Comp win")
+    print("Scissors Wins!! Computer win")
 if (x==c):
     print("Overtime!!")
+
+print("Thank you for plahying.Run it back?")
+
+
+
+
 
 
 
