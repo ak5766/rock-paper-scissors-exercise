@@ -4,7 +4,12 @@ print(x)
 
 if (x == "rock") or (x == "paper") or (x == "scissors"):
     print ("Valid")
+else:
+    print("You shall not pass!")
+    exit()
     
+
+
 
 
 
